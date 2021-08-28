@@ -1,0 +1,20 @@
+# Patch size: 96
+
+## Faster Convergence 
+ - AdamW > Adam 
+ - 3D Res Unet > Conv2 Unet
+ 
+## Learning rate
+ - Conv2 Unet: 0.0002
+ - Res Unet level 5: 0.0001
+ - Res Unet leevl 6: 0.00005
+ 
+ - Weight Decay : 0.00001 for all
+
+## Batch size 
+ - all 4
+ 
+## Best Model by recall - before dataset update
+ - Conv2 Unet: 85 epoch, val DICE =0.66
+ - Res Unet level 5: 90 epoch, val DICE =0.7
+ - Res Unet leevl 6: 
