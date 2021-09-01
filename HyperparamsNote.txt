@@ -14,7 +14,33 @@
 ## Batch size 
  - all 4
  
-## Best Model by recall - before dataset update
+## Best Model by DICE - before dataset update
  - Conv2 Unet: 85 epoch, val DICE =0.66
- - Res Unet level 5: 90 epoch, val DICE =0.7
- - Res Unet leevl 6: 
+ - Res Unet level 5: 90 epoch, val DICE = 0.7
+ - Res Unet leevl 6: 95 epoch, val DICE = 0.68
+
+
+# Patch size: 128
+
+
+## Best Model by DICE - before dataset update
+ - Res Unet level 6: 95epoch, val DICE = 0.6
+ 
+
+==================
+Notes
+==================
+
+# Performance 
+bonemeta_fn_0_3D_Unet_Res_lv5_PS128_model_epoch100
+  Patch size: 128,256,256
+  Average DICE score = 0.5642636273781871
+  Time consumed: 1292.9562610550201s
+  Std: 0.32
+
+bonemeta_fn_0_3D_Unet_Res_lv5_PS96_model_epoch100
+  Patch size: 128,256,256
+  Average DICE score = 0.3125650297448964
+  Time consumed: 1265.6288107549772s
+  Std: 0.27
+
