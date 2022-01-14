@@ -37,6 +37,11 @@ bonemeta_fn_0_3D_Unet_Res_lv5_PS128_model_epoch100
   Average DICE score = 0.5642636273781871
   Time consumed: 1292.9562610550201s
   Std: 0.32
+  
+  Patch size: 128,128,128
+  Average DICE score = 0.5496981406895243
+  Time consumed: 330s
+  Std: 0.34
 
 bonemeta_fn_0_3D_Unet_Res_lv5_PS96_model_epoch100
   Patch size: 128,256,256
